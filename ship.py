@@ -1,6 +1,6 @@
 import pygame
 
-class ship():
+class Ship():
 
     def __init__(self, screen):
         """Initialize the ship and set its starting position."""
@@ -18,4 +18,3 @@ class ship():
     def blitme(self):
         """Draw the ship at its current location."""
         self.screen.blit(self.image, self.rect)
-        
